@@ -230,7 +230,7 @@
 				TargetAttributes = {
 					C95119361E16DDED0014C3EE = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 56596UD8Z8;
+						DevelopmentTeam = DTWR74ACYK;
 						ProvisioningStyle = Automatic;
 					};
 					C951194A1E16DDED0014C3EE = {
@@ -457,10 +457,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56596UD8Z8;
+				DEVELOPMENT_TEAM = DTWR74ACYK;
 				INFOPLIST_FILE = CodemashTestingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = None.CodemashTestingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattnedrich.codemash-testing-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -470,10 +471,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56596UD8Z8;
+				DEVELOPMENT_TEAM = DTWR74ACYK;
 				INFOPLIST_FILE = CodemashTestingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = None.CodemashTestingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattnedrich.codemash-testing-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -556,6 +558,7 @@
 				C95119611E16DDED0014C3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95119621E16DDED0014C3EE /* Build configuration list for PBXNativeTarget "CodemashTestingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +567,7 @@
 				C95119641E16DDED0014C3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95119651E16DDED0014C3EE /* Build configuration list for PBXNativeTarget "CodemashTestingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +576,7 @@
 				C95119671E16DDED0014C3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

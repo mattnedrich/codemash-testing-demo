@@ -1,3 +1,5 @@
 machine:
   xcode:
     version: "8.2"
+  environment:
+    GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Matthew Nedrich (DTWR74ACYK)"
