@@ -5,7 +5,7 @@ machine:
     GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Matthew Nedrich (DTWR74ACYK)"
 
 deployment:
-  staging:
+  beta_distribution:
     branch: master
     comands:
       - gym
