@@ -3,3 +3,10 @@ machine:
     version: "8.2"
   environment:
     GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Matthew Nedrich (DTWR74ACYK)"
+
+deployment:
+  staging:
+    branch: master
+    comands:
+      - gym
+      - ipa distribute:itunesconnect -i 1193015850 --upload --verbose
