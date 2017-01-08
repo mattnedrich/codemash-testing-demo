@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class GreetingViewController: UIViewController {
 
     @IBOutlet weak var greetingLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
@@ -18,6 +18,5 @@ class MainViewController: UIViewController {
             self.greetingLabel.text = "Hello \(name)!"
         }
     }
-    
 }
 

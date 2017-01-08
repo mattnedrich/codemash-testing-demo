@@ -9,11 +9,11 @@
 import XCTest
 @testable import CodemashTestingDemo
 
-class MainViewControllerTests: XCTestCase {
+class GreetingViewControllerTests: XCTestCase {
     
     func testThatOutletsAreWiredUp() {
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "GreetingViewController") as! GreetingViewController
         
         // wire up outlets
         _ = viewController.view
@@ -25,7 +25,7 @@ class MainViewControllerTests: XCTestCase {
 
     func testThatGreetingLabelIsUpdatedCorrectly() {
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "GreetingViewController") as! GreetingViewController
 
         // wire up outlets
         _ = viewController.view

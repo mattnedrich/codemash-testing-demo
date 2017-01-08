@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UITestingDemoViewController: UIViewController, UITableViewDataSource {
+class TableDemoViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var numberOfRowsLabel: UILabel!
@@ -22,12 +22,13 @@ class UITestingDemoViewController: UIViewController, UITableViewDataSource {
     }
     
     @IBAction func addRowAction(_ sender: Any) {
-        let cellName = self.tableViewArray.count + 1
+        let cellName = "Row \(self.tableViewArray.count + 1)"
         self.tableViewArray.append(String(cellName))
+        
         let rowString = self.tableViewArray.count == 1 ? "row" : "rows"
         self.numberOfRowsLabel.text = "The table contains \(self.tableViewArray.count) \(rowString)"
-        self.tableView.reloadData()
         
+        self.tableView.reloadData()
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -37,7 +38,9 @@ class UITestingDemoViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "myCell")
         let cellLabel: UILabel = cell!.contentView.viewWithTag(2) as! UILabel
-        cellLabel.text = "Row \(self.tableViewArray[indexPath.row])"
+        
+        let tableViewRow = self.tableViewArray[indexPath.row]
+        cellLabel.text = tableViewRow
         return cell!
     }
 }

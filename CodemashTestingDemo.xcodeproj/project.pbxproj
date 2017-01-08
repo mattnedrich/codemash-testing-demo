@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91574651E22AD4F00D1B294 /* TableDemoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91574641E22AD4F00D1B294 /* TableDemoViewControllerTests.swift */; };
 		C951193B1E16DDED0014C3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951193A1E16DDED0014C3EE /* AppDelegate.swift */; };
 		C951193D1E16DDED0014C3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951193C1E16DDED0014C3EE /* ViewController.swift */; };
 		C95119401E16DDED0014C3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C951193E1E16DDED0014C3EE /* Main.storyboard */; };
@@ -18,9 +19,9 @@
 		C951196C1E16DEF50014C3EE /* SimpleAdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951196B1E16DEF50014C3EE /* SimpleAdderTests.swift */; };
 		C951196F1E16DFA10014C3EE /* NetworkAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951196E1E16DFA10014C3EE /* NetworkAdder.swift */; };
 		C95119711E16E1C10014C3EE /* NetworkAdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119701E16E1C10014C3EE /* NetworkAdderTests.swift */; };
-		C95119731E16E9B70014C3EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119721E16E9B70014C3EE /* MainViewController.swift */; };
-		C95119751E16ECDE0014C3EE /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119741E16ECDE0014C3EE /* MainViewControllerTests.swift */; };
-		C95119771E19BE800014C3EE /* UITestingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119761E19BE800014C3EE /* UITestingDemoViewController.swift */; };
+		C95119731E16E9B70014C3EE /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119721E16E9B70014C3EE /* GreetingViewController.swift */; };
+		C95119751E16ECDE0014C3EE /* GreetingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119741E16ECDE0014C3EE /* GreetingViewControllerTests.swift */; };
+		C95119771E19BE800014C3EE /* TableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95119761E19BE800014C3EE /* TableDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91574641E22AD4F00D1B294 /* TableDemoViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDemoViewControllerTests.swift; sourceTree = "<group>"; };
 		C95119371E16DDED0014C3EE /* CodemashTestingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodemashTestingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C951193A1E16DDED0014C3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C951193C1E16DDED0014C3EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,9 +60,9 @@
 		C951196B1E16DEF50014C3EE /* SimpleAdderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAdderTests.swift; sourceTree = "<group>"; };
 		C951196E1E16DFA10014C3EE /* NetworkAdder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAdder.swift; sourceTree = "<group>"; };
 		C95119701E16E1C10014C3EE /* NetworkAdderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAdderTests.swift; sourceTree = "<group>"; };
-		C95119721E16E9B70014C3EE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C95119741E16ECDE0014C3EE /* MainViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
-		C95119761E19BE800014C3EE /* UITestingDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestingDemoViewController.swift; sourceTree = "<group>"; };
+		C95119721E16E9B70014C3EE /* GreetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		C95119741E16ECDE0014C3EE /* GreetingViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingViewControllerTests.swift; sourceTree = "<group>"; };
+		C95119761E19BE800014C3EE /* TableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +148,8 @@
 			children = (
 				C95119691E16DE6F0014C3EE /* SimpleAdder.swift */,
 				C951196E1E16DFA10014C3EE /* NetworkAdder.swift */,
-				C95119721E16E9B70014C3EE /* MainViewController.swift */,
-				C95119761E19BE800014C3EE /* UITestingDemoViewController.swift */,
+				C95119721E16E9B70014C3EE /* GreetingViewController.swift */,
+				C95119761E19BE800014C3EE /* TableDemoViewController.swift */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -157,7 +159,8 @@
 			children = (
 				C951196B1E16DEF50014C3EE /* SimpleAdderTests.swift */,
 				C95119701E16E1C10014C3EE /* NetworkAdderTests.swift */,
-				C95119741E16ECDE0014C3EE /* MainViewControllerTests.swift */,
+				C95119741E16ECDE0014C3EE /* GreetingViewControllerTests.swift */,
+				C91574641E22AD4F00D1B294 /* TableDemoViewControllerTests.swift */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -299,12 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C95119771E19BE800014C3EE /* UITestingDemoViewController.swift in Sources */,
+				C95119771E19BE800014C3EE /* TableDemoViewController.swift in Sources */,
 				C951196A1E16DE6F0014C3EE /* SimpleAdder.swift in Sources */,
 				C951196F1E16DFA10014C3EE /* NetworkAdder.swift in Sources */,
 				C951193D1E16DDED0014C3EE /* ViewController.swift in Sources */,
 				C951193B1E16DDED0014C3EE /* AppDelegate.swift in Sources */,
-				C95119731E16E9B70014C3EE /* MainViewController.swift in Sources */,
+				C95119731E16E9B70014C3EE /* GreetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +317,9 @@
 			files = (
 				C951196C1E16DEF50014C3EE /* SimpleAdderTests.swift in Sources */,
 				C95119501E16DDED0014C3EE /* CodemashTestingDemoTests.swift in Sources */,
+				C91574651E22AD4F00D1B294 /* TableDemoViewControllerTests.swift in Sources */,
 				C95119711E16E1C10014C3EE /* NetworkAdderTests.swift in Sources */,
-				C95119751E16ECDE0014C3EE /* MainViewControllerTests.swift in Sources */,
+				C95119751E16ECDE0014C3EE /* GreetingViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
