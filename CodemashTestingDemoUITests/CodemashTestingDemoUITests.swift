@@ -38,5 +38,22 @@ class CodemashTestingDemoUITests: BaseUITest {
     
     func testRecord() {
         
+        let app = XCUIApplication()
+        let greetingtextboxTextField = app.textFields["greetingTextBox"]
+        greetingtextboxTextField.tap()
+        app.keys["m"].tap()
+        greetingtextboxTextField.typeText("m")
+        app.keys["a"].tap()
+        greetingtextboxTextField.typeText("a")
+        app.keys["t"].tap()
+        greetingtextboxTextField.typeText("tt")
+        app.buttons["Update Greeting"].tap()
+        app.tabBars.buttons["Example 2"].tap()
+        
+        let addrowbuttonButton = app.buttons["addRowButton"]
+        addrowbuttonButton.tap()
+        addrowbuttonButton.tap()
+        addrowbuttonButton.tap()
+        
     }
 }

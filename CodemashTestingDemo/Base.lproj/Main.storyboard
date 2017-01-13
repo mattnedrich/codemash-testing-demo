@@ -78,7 +78,7 @@
                     <tabBarItem key="tabBarItem" title="Example 1" id="Kz9-WD-p5W"/>
                     <connections>
                         <outlet property="greetingLabel" destination="BtQ-z6-oa9" id="WmZ-jv-3IO"/>
-                        <outlet property="nameTextField" destination="hhy-OS-8vB" id="sHx-S5-uEO"/>
+                        <outlet property="nameTextField" destination="hhy-OS-8vB" id="2oP-V4-mt5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IzW-w8-VgJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -141,7 +141,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HLY-tl-saq" id="Mc2-D6-gcX">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Row N" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHb-It-FFW">
